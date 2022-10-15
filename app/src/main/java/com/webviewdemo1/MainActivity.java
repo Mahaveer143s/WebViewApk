@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
         WebSettings websettings = web.getSettings();
       websettings.setJavaScriptEnabled(true);
         web.setWebViewClient(new callback());
-        web.loadUrl("http://www.youtube.com/");
-        //web.loadUrl("http://krupatechservices.great-site.net/");
+        web.loadUrl("http://krupatechservices.great-site.net/");
+        
     }
 
     private class callback extends WebViewClient {
